@@ -8,7 +8,7 @@ Users can paste a news article into the interface and the system predicts whethe
 
 ##  Live Demo
 
-https://fake-news-detection-ml.streamlit.app
+https://fake-news-detection-ml-zztfpmeut8qvlsxmxtlewo.streamlit.app
 
 ---
 
