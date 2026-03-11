@@ -1,30 +1,58 @@
-# Fake News Detection using Machine Learning
+# Fake News Detection System
 
-This project detects whether a news article is **Fake or Real** using Natural Language Processing and Machine Learning.
+A Machine Learning web application that detects whether a news article is **Fake or Real** using Natural Language Processing (NLP) and a trained classification model.
 
-## Model
-- Logistic Regression
-- TF-IDF Vectorization
+Users can paste a news article into the interface and the system predicts whether the news is fake or real.
 
-## Dataset
-Fake and Real News Dataset (44,000+ articles)
+---
+
+##  Live Demo
+
+https://fake-news-detection-ml.streamlit.app
+
+---
 
 ## Features
-- Text preprocessing
-- TF-IDF feature extraction
-- Logistic Regression classifier
-- Streamlit web interface
 
-## How it works
-User enters a news article → text is vectorized → model predicts Fake or Real.
+- Detect fake news using Machine Learning
+- Natural Language Processing with TF-IDF
+- Interactive web interface built with Streamlit
+- Real-time prediction
+- Deployed online using Streamlit Cloud
 
-## Tech Stack
+---
+
+##  Machine Learning Pipeline
+
+The system follows this workflow:
+
+Input News Article  
+↓  
+Text Preprocessing  
+↓  
+TF-IDF Vectorization  
+↓  
+Logistic Regression Model  
+↓  
+Prediction (Fake / Real)
+
+---
+
+## Dataset
+
+The model was trained on the **Fake and Real News Dataset** containing more than **44,000 labeled news articles**.
+
+---
+
+##  Tech Stack
+
 Python  
 Scikit-learn  
+Pandas  
+TF-IDF Vectorizer  
+Logistic Regression  
 Streamlit  
-NLP (TF-IDF)
+Joblib  
 
-## Demo
-Live demo deployed using Streamlit Cloud.
-## Live Demo
-https://your-streamlit-link
+---
+
